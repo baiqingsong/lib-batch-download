@@ -1,0 +1,3 @@
+rootProject.name = "lib-batch-download"
+include ':app'
+include ':download'

@@ -1,0 +1,92 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.dawn.libbatchdownload"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="28"
+8-->D:\lib\7.lib-batch-download\lib-batch-download\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="34" />
+9-->D:\lib\7.lib-batch-download\lib-batch-download\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->D:\lib\7.lib-batch-download\lib-batch-download\app\src\main\AndroidManifest.xml:4:5-67
+11-->D:\lib\7.lib-batch-download\lib-batch-download\app\src\main\AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->D:\lib\7.lib-batch-download\lib-batch-download\app\src\main\AndroidManifest.xml:5:5-79
+12-->D:\lib\7.lib-batch-download\lib-batch-download\app\src\main\AndroidManifest.xml:5:22-76
+13    <uses-permission
+13-->D:\lib\7.lib-batch-download\lib-batch-download\app\src\main\AndroidManifest.xml:6:5-7:38
+14        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+14-->D:\lib\7.lib-batch-download\lib-batch-download\app\src\main\AndroidManifest.xml:6:22-78
+15        android:maxSdkVersion="28" />
+15-->D:\lib\7.lib-batch-download\lib-batch-download\app\src\main\AndroidManifest.xml:7:9-35
+16
+17    <permission
+17-->[androidx.core:core:1.9.0] C:\Users\90449\.gradle\caches\transforms-3\31dd2fd25ee9a0eaa021c7cd8a443f22\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+18        android:name="com.dawn.libbatchdownload.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+18-->[androidx.core:core:1.9.0] C:\Users\90449\.gradle\caches\transforms-3\31dd2fd25ee9a0eaa021c7cd8a443f22\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+19        android:protectionLevel="signature" />
+19-->[androidx.core:core:1.9.0] C:\Users\90449\.gradle\caches\transforms-3\31dd2fd25ee9a0eaa021c7cd8a443f22\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+20
+21    <uses-permission android:name="com.dawn.libbatchdownload.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+21-->[androidx.core:core:1.9.0] C:\Users\90449\.gradle\caches\transforms-3\31dd2fd25ee9a0eaa021c7cd8a443f22\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+21-->[androidx.core:core:1.9.0] C:\Users\90449\.gradle\caches\transforms-3\31dd2fd25ee9a0eaa021c7cd8a443f22\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+22
+23    <application
+23-->D:\lib\7.lib-batch-download\lib-batch-download\app\src\main\AndroidManifest.xml:9:5-22:19
+24        android:allowBackup="true"
+24-->D:\lib\7.lib-batch-download\lib-batch-download\app\src\main\AndroidManifest.xml:10:9-35
+25        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+25-->[androidx.core:core:1.9.0] C:\Users\90449\.gradle\caches\transforms-3\31dd2fd25ee9a0eaa021c7cd8a443f22\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+26        android:debuggable="true"
+27        android:extractNativeLibs="false"
+28        android:label="@string/app_name"
+28-->D:\lib\7.lib-batch-download\lib-batch-download\app\src\main\AndroidManifest.xml:11:9-41
+29        android:supportsRtl="true"
+29-->D:\lib\7.lib-batch-download\lib-batch-download\app\src\main\AndroidManifest.xml:12:9-35
+30        android:theme="@style/Theme.LibBatchDownload" >
+30-->D:\lib\7.lib-batch-download\lib-batch-download\app\src\main\AndroidManifest.xml:13:9-54
+31        <activity
+31-->D:\lib\7.lib-batch-download\lib-batch-download\app\src\main\AndroidManifest.xml:14:9-21:20
+32            android:name="com.dawn.libbatchdownload.MainActivity"
+32-->D:\lib\7.lib-batch-download\lib-batch-download\app\src\main\AndroidManifest.xml:15:13-41
+33            android:exported="true" >
+33-->D:\lib\7.lib-batch-download\lib-batch-download\app\src\main\AndroidManifest.xml:16:13-36
+34            <intent-filter>
+34-->D:\lib\7.lib-batch-download\lib-batch-download\app\src\main\AndroidManifest.xml:17:13-20:29
+35                <action android:name="android.intent.action.MAIN" />
+35-->D:\lib\7.lib-batch-download\lib-batch-download\app\src\main\AndroidManifest.xml:18:17-69
+35-->D:\lib\7.lib-batch-download\lib-batch-download\app\src\main\AndroidManifest.xml:18:25-66
+36
+37                <category android:name="android.intent.category.LAUNCHER" />
+37-->D:\lib\7.lib-batch-download\lib-batch-download\app\src\main\AndroidManifest.xml:19:17-77
+37-->D:\lib\7.lib-batch-download\lib-batch-download\app\src\main\AndroidManifest.xml:19:27-74
+38            </intent-filter>
+39        </activity>
+40
+41        <provider
+41-->[androidx.emoji2:emoji2:1.2.0] C:\Users\90449\.gradle\caches\transforms-3\e6cc2b2d8911a4684bdbf3fe7c74bb2d\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+42            android:name="androidx.startup.InitializationProvider"
+42-->[androidx.emoji2:emoji2:1.2.0] C:\Users\90449\.gradle\caches\transforms-3\e6cc2b2d8911a4684bdbf3fe7c74bb2d\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+43            android:authorities="com.dawn.libbatchdownload.androidx-startup"
+43-->[androidx.emoji2:emoji2:1.2.0] C:\Users\90449\.gradle\caches\transforms-3\e6cc2b2d8911a4684bdbf3fe7c74bb2d\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+44            android:exported="false" >
+44-->[androidx.emoji2:emoji2:1.2.0] C:\Users\90449\.gradle\caches\transforms-3\e6cc2b2d8911a4684bdbf3fe7c74bb2d\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+45            <meta-data
+45-->[androidx.emoji2:emoji2:1.2.0] C:\Users\90449\.gradle\caches\transforms-3\e6cc2b2d8911a4684bdbf3fe7c74bb2d\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+46                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+46-->[androidx.emoji2:emoji2:1.2.0] C:\Users\90449\.gradle\caches\transforms-3\e6cc2b2d8911a4684bdbf3fe7c74bb2d\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+47                android:value="androidx.startup" />
+47-->[androidx.emoji2:emoji2:1.2.0] C:\Users\90449\.gradle\caches\transforms-3\e6cc2b2d8911a4684bdbf3fe7c74bb2d\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+48            <meta-data
+48-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\90449\.gradle\caches\transforms-3\eaf38ecd125200be5cc6930a21dfb71f\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+49                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+49-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\90449\.gradle\caches\transforms-3\eaf38ecd125200be5cc6930a21dfb71f\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+50                android:value="androidx.startup" />
+50-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\90449\.gradle\caches\transforms-3\eaf38ecd125200be5cc6930a21dfb71f\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+51        </provider>
+52    </application>
+53
+54</manifest>

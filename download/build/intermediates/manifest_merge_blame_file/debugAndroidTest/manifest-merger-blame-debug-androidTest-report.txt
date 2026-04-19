@@ -1,0 +1,41 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.dawn.download.test" >
+4
+5    <uses-sdk
+5-->D:\lib\7.lib-batch-download\lib-batch-download\download\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest4373690281755249042.xml:5:5-74
+6        android:minSdkVersion="28"
+6-->D:\lib\7.lib-batch-download\lib-batch-download\download\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest4373690281755249042.xml:5:15-41
+7        android:targetSdkVersion="34" />
+7-->D:\lib\7.lib-batch-download\lib-batch-download\download\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest4373690281755249042.xml:5:42-71
+8
+9    <instrumentation
+9-->D:\lib\7.lib-batch-download\lib-batch-download\download\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest4373690281755249042.xml:11:5-15:72
+10        android:name="androidx.test.runner.AndroidJUnitRunner"
+10-->D:\lib\7.lib-batch-download\lib-batch-download\download\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest4373690281755249042.xml:11:22-76
+11        android:functionalTest="false"
+11-->D:\lib\7.lib-batch-download\lib-batch-download\download\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest4373690281755249042.xml:14:22-52
+12        android:handleProfiling="false"
+12-->D:\lib\7.lib-batch-download\lib-batch-download\download\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest4373690281755249042.xml:13:22-53
+13        android:label="Tests for com.dawn.download.test"
+13-->D:\lib\7.lib-batch-download\lib-batch-download\download\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest4373690281755249042.xml:15:22-70
+14        android:targetPackage="com.dawn.download.test" />
+14-->D:\lib\7.lib-batch-download\lib-batch-download\download\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest4373690281755249042.xml:12:22-68
+15
+16    <uses-permission android:name="android.permission.INTERNET" />
+16-->[:download] D:\lib\7.lib-batch-download\lib-batch-download\download\build\intermediates\merged_manifest\debug\AndroidManifest.xml:7:5-67
+16-->[:download] D:\lib\7.lib-batch-download\lib-batch-download\download\build\intermediates\merged_manifest\debug\AndroidManifest.xml:7:22-64
+17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+17-->[:download] D:\lib\7.lib-batch-download\lib-batch-download\download\build\intermediates\merged_manifest\debug\AndroidManifest.xml:8:5-79
+17-->[:download] D:\lib\7.lib-batch-download\lib-batch-download\download\build\intermediates\merged_manifest\debug\AndroidManifest.xml:8:22-76
+18
+19    <application
+19-->D:\lib\7.lib-batch-download\lib-batch-download\download\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest4373690281755249042.xml:7:5-9:19
+20        android:debuggable="true"
+21        android:extractNativeLibs="false" >
+22        <uses-library android:name="android.test.runner" />
+22-->D:\lib\7.lib-batch-download\lib-batch-download\download\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest4373690281755249042.xml:8:9-60
+22-->D:\lib\7.lib-batch-download\lib-batch-download\download\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest4373690281755249042.xml:8:23-57
+23    </application>
+24
+25</manifest>

@@ -1,0 +1,6 @@
+com.dawn.download.test.download-androidTest-0 D:\lib\7.lib-batch-download\lib-batch-download\download\build\generated\res\resValues\androidTest\debug
+com.dawn.download.test.download-androidTest-1 D:\lib\7.lib-batch-download\lib-batch-download\download\build\generated\res\rs\androidTest\debug
+com.dawn.download.test.download-mergeDebugAndroidTestResources-2 D:\lib\7.lib-batch-download\lib-batch-download\download\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.dawn.download.test.download-mergeDebugAndroidTestResources-3 D:\lib\7.lib-batch-download\lib-batch-download\download\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.dawn.download.test.download-merged_res-4 D:\lib\7.lib-batch-download\lib-batch-download\download\build\intermediates\merged_res\debugAndroidTest
+com.dawn.download.test.download-packaged_res-5 D:\lib\7.lib-batch-download\lib-batch-download\download\build\intermediates\packaged_res\debug

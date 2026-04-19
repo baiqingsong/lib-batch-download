@@ -1,0 +1,7 @@
+#Mon Apr 20 01:45:38 CST 2026
+base.0=D\:\\lib\\7.lib-batch-download\\lib-batch-download\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeProjectDexDebugAndroidTest\\0\\classes.dex
+base.1=D\:\\lib\\7.lib-batch-download\\lib-batch-download\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeProjectDexDebugAndroidTest\\12\\classes.dex
+path.0=0/classes.dex
+path.1=12/classes.dex
+renamed.0=classes.dex
+renamed.1=classes2.dex
